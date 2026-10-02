@@ -44,6 +44,36 @@
     text-align: center;
     
 }
+.tourism h1 {
+    font-weight: lighter;
+}
 .tourism hr {
     width: 100px;
 }
+.tourism p {
+    color: rgb(102, 100, 100);
+    font-size: large;
+}
+.highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+}
+.animals img {
+    width: 620px;
+}
+.words {
+    text-align: center;
+    padding: 80px;
+}
+.words h1 {
+    font-weight: lighter;
+    color: rgb(102, 100, 100);
+}
+.words p {
+    font-size: large;
+    color: rgb(102, 100, 100);
+}
+
+
