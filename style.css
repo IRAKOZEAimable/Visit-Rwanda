@@ -76,4 +76,23 @@
     color: rgb(102, 100, 100);
 }
 
+.attractions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+    
+
+}
+.head-four {
+    text-align: center;
+
+}
+.text {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(52, 50, 50);
+}
+.photo {
+    width: 315px;
+}
 
