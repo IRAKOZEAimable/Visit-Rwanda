@@ -60,7 +60,7 @@
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 24px;
 }
-.animals img {
+.photo-h img {
     width: 620px;
 }
 .words {
@@ -75,7 +75,19 @@
     font-size: large;
     color: rgb(102, 100, 100);
 }
-
+.words button {
+    background-color: rgb(2, 2, 46);
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: large;
+    border-radius: 5px;
+}
+.words button:hover {
+    background-color: white;
+    color: rgb(101, 101, 101);
+    border-style:groove;
+}
 .attractions {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
