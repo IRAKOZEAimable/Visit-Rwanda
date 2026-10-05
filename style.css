@@ -44,8 +44,15 @@
     text-align: center;
     
 }
+.tourism a {
+    text-decoration: none;
+    color: black;
+}
 .tourism h1 {
     font-weight: lighter;
+}
+.tourism h1:hover {
+    color: rgb(107, 105, 105);
 }
 .tourism hr {
     width: 100px;
